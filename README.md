@@ -6,4 +6,4 @@ web数据表格
 
 目录文件夹下sqlite3文件夹放入硬盘然后导入windows环境变量。
 目录文件夹下lab.sql文件用于导入数据库。
-sqlitestudio3.1.1数据库UI界面。
+sqlitestudio3.1.1是数据库UI界面软件。
