@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>测试中心</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<h1 class="row justify-content-sm-center"> 注册 </h1>
+<div class="row justify-content-sm-center">
+
+<form method='POST', action='/users/register'>
+  <div class="form-group row">
+    <label for="account">用户名</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="name" placeholder="用户名">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="account">邮箱</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="email" placeholder="邮箱">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="account">账号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="username" placeholder="账号">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="account">密码</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="password" placeholder="密码">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="account">请再次输入密码</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="password2" placeholder="请再次输入密码">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="account">请输入注册码</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="keynumber" placeholder="请输入注册码">
+    </div>
+  </div>
+  <br></br>
+  <button type="submit" value="submit" class="btn btn-primary">提交</button>
+</form>
+</div>
