@@ -1,0 +1,44 @@
+{
+  "name": "laboratory-demo",
+  "version": "1.9.0",
+  "description": "laboratory-demo",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "datatables.net-editor-server": "^1.9.0",
+    "ejs": "^2.6.2",
+    "express": "^4.15.3",
+    "express-busboy": "^6.0.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^5.3.1",
+    "knex": "^0.14.0",
+    "mongoose": "^5.6.12",
+    "morgan": "^1.9.1",
+    "mssql": "^4.1.0",
+    "mysql": "^2.13.0",
+    "oracledb": "^3.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.0",
+    "pug": "^2.0.4",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.4.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "DataTables",
+    "Editor"
+  ],
+  "author": "David",
+  "license": "MIT",
+  "private": true
+}
