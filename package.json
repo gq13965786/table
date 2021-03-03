@@ -24,7 +24,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "pg": "^7.4.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sqlite3": "^4.0.2"
   },
   "devDependencies": {
